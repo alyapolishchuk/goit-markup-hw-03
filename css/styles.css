@@ -156,7 +156,6 @@ font-style: normal;
 }
 
 .portfolio-title-list {
-    box-sizing: border-box;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -399,10 +398,7 @@ img {
 
 .advantages-list {
     display: flex;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
-
 /*Footer*/
 .footer {
     padding-top: 60px;
@@ -432,9 +428,13 @@ img {
 }
 
 .advantages-item {
-    .width: 270px;
+    width: 270px;
 }
 
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .advantages-text-title {
     margin-bottom: 10px;
@@ -447,7 +447,7 @@ img {
 }
 
 .work {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .work-title {
